@@ -1,0 +1,79 @@
+@import url("https://use.typekit.net/ltl3thq.css");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+html {
+scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: lato, sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+}
+
+h2, h3 {
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+}
+
+.It {
+  font-family: mascot-mvb, sans-serif;
+  font-weight: 400;
+}
+
+.site-footer {
+  width: 100%;
+  padding: 1em 0 1em;
+  color: #515151;
+  font-weight: 500;
+  background-color: #153e90;
+
+}
+
+.contact {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.footer-contact {
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+  padding: 10px;
+}
+li i{
+  font-size: 3em;
+  margin: 0 50px;
+  color: rgb(230, 230, 230);
+}
+
+.brand-color {
+    color: grey;
+    text-decoration: none;
+}
+
+.mail {
+  color: grey;
+}
+.typeform-widget {
+  height: 1000px;
+  overflow: hidden;
+}
+.plan {
+  height: 250px;
+}
